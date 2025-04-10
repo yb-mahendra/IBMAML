@@ -26,9 +26,28 @@ Setiap driver memiliki data sebagai berikut:
 ✅ Filter driver berdasarkan **jenis taksi**  
 ✅ Tambah driver baru dengan **TNKB unik otomatis** sesuai wilayah  
 ✅ Edit data driver berdasarkan **nomor urut**  
-✅ Hapus data driver dari sistem  
+✅ Hapus data driver dari sistem 
+✅ Upgrade jenis taksi driver (assign dari Reguler ke Premium atau Elektrik)
 ✅ Interaktif berbasis input console  
-✅ Tanpa menggunakan `pandas`, `prettytable`, atau library tambahan
+
+
+## 🏙 TNKB Generation
+
+TNKB (plat nomor) akan di-generate otomatis berdasarkan kota asal dari alamat:
+
+- `L` = Surabaya
+- `W` = Sidoarjo / Gresik
+- `S` = Mojokerto / Lamongan
+
+Contoh format: `L 1234 AB`
+
+## ▶️ How to Run
+
+1. Clone repo ini atau salin `driver_management.py`
+2. Jalankan di terminal atau IDE:
+
+```bash
+python driver_management.py
 
 ---
 === Selamat Datang di Driver Management System ===
@@ -38,5 +57,6 @@ Setiap driver memiliki data sebagai berikut:
 4. Tambah Data Driver
 5. Edit Data Driver
 6. Hapus Data Driver
-7. Exit
+7. Assign Driver (Upgrade)
+8. Exit
 
