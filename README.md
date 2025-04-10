@@ -2,7 +2,7 @@
 
 # 🚖 Driver Management System - Final Project Python
 
-Project ini merupakan tugas akhir sederhana yang dibuat menggunakan **Python** dalam format **Jupyter Notebook (.ipynb)**. Program ini menyediakan fitur manajemen data driver taksi dengan sistem **CRUD (Create, Read, Update, Delete)** yang interaktif berbasis console.
+Project ini merupakan tugas akhir sederhana yang dibuat menggunakan **Python**. Program ini menyediakan fitur manajemen data driver taksi dengan sistem **CRUD (Create, Read, Update, Delete)** yang interaktif berbasis console.
 
 ## 📌 Deskripsi
 
