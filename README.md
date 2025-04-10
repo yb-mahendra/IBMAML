@@ -21,14 +21,13 @@ Setiap driver memiliki data sebagai berikut:
 
 ## ⚙️ Fitur Program
 
-✅ Menampilkan daftar driver dalam bentuk tabel  
-✅ Filter driver berdasarkan **jenis kendaraan**  
-✅ Filter driver berdasarkan **jenis taksi**  
-✅ Tambah driver baru dengan **TNKB unik otomatis** sesuai wilayah  
-✅ Edit data driver berdasarkan **nomor urut**  
-✅ Hapus data driver dari sistem 
-✅ Upgrade jenis taksi driver (assign dari Reguler ke Premium atau Elektrik)
-✅ Interaktif berbasis input console  
+1. Tampilkan Daftar Driver
+2. Filter Jenis Kendaraan
+3. Filter Jenis Taksi
+4. Tambah Data Driver
+5. Edit Data Driver
+6. Hapus Data Driver
+7. Assign Driver (Upgrade)
 
 
 ## 🏙 TNKB Generation
