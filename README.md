@@ -1,61 +1,54 @@
 # README
+Proyek ini merupakan final project analisis data dengan menggunakan dataset transaksi dari IBM. 
 
-# 🚖 Driver Management System - Final Project Python
+# 🧾 IBM Transactions for Anti Money Laundering (AML)
+Analisis dilakukan untuk mengeksplorasi pola, mendeteksi anomali, dan menghasilkan insight yang mendukung upaya anti pencucian uang (Anti Money Laundering/AML).
 
-Project ini merupakan tugas akhir sederhana yang dibuat menggunakan **Python**. Program ini menyediakan fitur manajemen data driver taksi dengan sistem **CRUD (Create, Read, Update, Delete)** yang interaktif berbasis console.
+## 📊 Dataset
+Dataset terdiri dari 6 file transaksi yang dikelompokkan berdasarkan High Income (HI) dan Low Income (LI), serta ukuran transaksi (Large, Medium, Small).
 
-## 📌 Deskripsi
+- `HI-Large_Trans.csv`
+- `HI-Medium_Trans.csv`
+- `HI-Small_Trans.csv`
+- `LI-Large_Trans.csv`
+- `LI-Medium_Trans.csv`
+- `LI-Small_Trans.csv`
 
-Aplikasi ini dirancang untuk membantu operator dalam mencatat, memfilter, dan memodifikasi data driver serta kendaraan armada taksi berdasarkan wilayah **Surabaya Raya** (Surabaya, Sidoarjo/Gresik, Mojokerto/Lamongan).
+## 🔍 Tahapan Analisis
 
-Setiap driver memiliki data sebagai berikut:
-- Nomor urut
-- Nama driver
-- TNKB (Tanda Nomor Kendaraan Bermotor) otomatis dan unik
-- Jenis kendaraan (Sedan, MPV, SUV, dll.)
-- Jenis taksi (Reguler, Premium, Elektrik)
-- Nomor HP
-- Alamat
+1. **Import Library & Load Dataset**  
+   Menggabungkan 6 dataset menjadi satu DataFrame utama.
 
----
+2. **Exploratory Data Analysis (EDA)**  
+   - Statistik deskriptif
+   - Distribusi nilai transaksi dan jenis transaksi
+   - Pola transaksi berdasarkan waktu dan akun
 
-## ⚙️ Fitur Program
+3. **Data Cleaning & Outlier Detection**  
+   - Missing value check
+   - Duplikasi & unique value check
+   - Visualisasi boxplot dan deteksi IQR untuk outlier
 
-1. Tampilkan Daftar Driver
-2. Filter Jenis Kendaraan
-3. Filter Jenis Taksi
-4. Tambah Data Driver
-5. Edit Data Driver
-6. Hapus Data Driver
-7. Assign Driver (Upgrade)
+4. **Visualisasi Data**  
+   Visualisasi interaktif disusun dalam bentuk dashboard untuk mempermudah komunikasi insight.
 
+5. **Insight & Summary**  
+   Menyajikan insight utama dari analisis yang relevan untuk deteksi dini pencucian uang dan anomali transaksi.
 
-## 🏙 TNKB Generation
+## 📁 Output
 
-TNKB (plat nomor) akan di-generate otomatis berdasarkan kota asal dari alamat:
+- 🧪 `Notebook.ipynb` – Proses analisis data lengkap  
+- 📊 [Dashboard Looker Studio](#) *(Link akan ditambahkan)*  
+- 📄 `Presentation.pdf` – Ringkasan insight utama  
 
-- `L` = Surabaya
-- `W` = Sidoarjo / Gresik
-- `S` = Mojokerto / Lamongan
+## 📌 Catatan
 
-Contoh format: `L 1234 AB`
-
-## ▶️ How to Run
-
-1. Clone repo ini atau salin `driver_management.py`
-2. Jalankan di terminal atau IDE:
-
-```bash
-python driver_management.py
+Proyek ini bertujuan untuk mengasah kemampuan dalam analisis data nyata dan bukan untuk keperluan komersial.
 
 ---
-=== Selamat Datang di Driver Management System ===
-1. Tampilkan Daftar Driver
-2. Filter Jenis Kendaraan
-3. Filter Jenis Taksi
-4. Tambah Data Driver
-5. Edit Data Driver
-6. Hapus Data Driver
-7. Assign Driver (Upgrade)
-8. Exit
+
+© 2025 – Yefta Bayu Mahendra
+
+
+
 
